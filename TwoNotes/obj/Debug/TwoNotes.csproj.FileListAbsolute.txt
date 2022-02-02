@@ -1,0 +1,11 @@
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\bin\Debug\TwoNotes.exe.config
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\bin\Debug\TwoNotes.exe
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\bin\Debug\TwoNotes.pdb
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.csproj.AssemblyReference.cache
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.csproj.SuggestedBindingRedirects.cache
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.Properties.Resources.resources
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.csproj.GenerateResource.cache
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.csproj.CoreCompileInputs.cache
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.exe
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.pdb
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.Form1.resources

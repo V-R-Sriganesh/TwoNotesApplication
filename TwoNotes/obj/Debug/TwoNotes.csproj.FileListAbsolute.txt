@@ -9,3 +9,4 @@ E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.csproj.CoreCompileI
 E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.exe
 E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.pdb
 E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.Form1.resources
+E:\MiniProjects\NoteApp\TwoNotes\TwoNotes\obj\Debug\TwoNotes.About.resources

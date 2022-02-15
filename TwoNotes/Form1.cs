@@ -141,27 +141,52 @@ namespace TwoNotes
 
         private void wordWrapToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            if (wordWrapToolStripMenuItem.Checked == true)
+            {
+                wordWrapToolStripMenuItem.Checked = false;
+                richTextBox1.WordWrap = false;
+            }
+            else
+            {
+                wordWrapToolStripMenuItem.Checked = true;   
+                richTextBox1.WordWrap = true;
+            }
         }
 
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            fontDialog1.ShowDialog();
+            richTextBox1.SelectionFont = new Font(fontDialog1.Font.FontFamily, fontDialog1.Font.Size, fontDialog1.Font.Style);
         }
 
         private void highlightTextToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            richTextBox1.SelectionBackColor = Color.Yellow;
         }
 
         private void aboutTwoNotesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            About About = new About();
+            About.ShowDialog();
         }
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             e.Graphics.DrawString(richTextBox1.Text, richTextBox1.Font, Brushes.Black, 12, 10);
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            if(richTextBox1.Text.Length>0)
+            {
+                cutToolStripMenuItem.Enabled = true;
+                copyToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                cutToolStripMenuItem.Enabled = false;
+                copyToolStripMenuItem.Enabled = false;
+            }
         }
     }
 }
